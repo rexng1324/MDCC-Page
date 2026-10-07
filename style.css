@@ -7,7 +7,9 @@ a{color:inherit}
 .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
 header{position:sticky;top:0;z-index:5;background:var(--hero);color:var(--herotext)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:8px 24px;min-height:64px;flex-wrap:wrap;padding-block:8px}
-.logo{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:1.15rem;text-decoration:none}
+.logo{display:inline-flex;align-items:center;gap:.7rem;font-family:Fraunces,Georgia,serif;font-weight:800;font-size:1.15rem;text-decoration:none;line-height:1.2}
+.logo img{width:42px;height:42px;object-fit:contain;flex-shrink:0}
+.logo span{display:inline-block}
 nav{display:flex;gap:4px 8px;flex-wrap:wrap}
 nav a{text-decoration:none;font-size:.95rem;font-weight:500;padding:8px 12px;border-bottom:3px solid transparent}
 nav a:hover{border-color:rgba(240,180,41,.5)}
